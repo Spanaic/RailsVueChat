@@ -1,0 +1,7 @@
+<% @messages.each do |message| %>
+  <div>
+    <%= message.content %>
+  </div>
+<% end %>
+<!-- current_userはdevise gemを入れるなどでログイン実装することによって使えます -->
+<user-chat user-id="current_user.id"></user-chat>
