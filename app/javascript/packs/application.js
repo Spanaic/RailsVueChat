@@ -23,6 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const app = new Vue({
     el: "#app",
     data: {},
-    components: { App },
-  });
+    render: (h) => h(App),
+  }).$mount();
 });
