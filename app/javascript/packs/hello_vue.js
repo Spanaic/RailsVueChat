@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const app = new Vue({
     render: (h) => h(App),
   }).$mount();
-  document.body.appendChild(document.createElement("hello"));
+  document.body.appendChild(document.createElement("hello")); //<hello></hello>というタグを作ってる
 
   console.log(app);
 });
